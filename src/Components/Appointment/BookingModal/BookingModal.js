@@ -47,7 +47,7 @@ const BookingModal = ({booking,openBooking,handleBookingClose,date,setBookingSuc
     };
 
     // send data to server 
-    fetch('http://localhost:5000/appoinments',{
+    fetch('https://powerful-meadow-55949.herokuapp.com/appoinments',{
       method:"POST",
       headers:{
         "content-type":"application/json"

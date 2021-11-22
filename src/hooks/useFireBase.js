@@ -100,7 +100,7 @@ const useFireBase = () => {
     // save user
     const saveUser =(email,dsiplayName,method)=>{
         const user = {email,dsiplayName}
-        fetch('http://localhost:5000/users',{
+        fetch('https://powerful-meadow-55949.herokuapp.com/users',{
             method:method,
             headers:{
                 'content-type':'application/json'

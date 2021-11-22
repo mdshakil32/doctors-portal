@@ -19,7 +19,7 @@ const Appointments = ({date}) => {
     console.log(user.email);
 
     useEffect(()=>{
-        const url = `http://localhost:5000/appoinments?email=${user.email}&&date=${date}`;
+        const url = `https://powerful-meadow-55949.herokuapp.com/appoinments?email=${user.email}&&date=${date}`;
         fetch(url)
         .then(res => res.json())
         .then(data => {
